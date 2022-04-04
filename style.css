@@ -1,0 +1,93 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.60);
+  width: 50%;
+  margin: auto;
+  border-radius: 1%;
+  padding: 3%;
+  color: #fff;
+}
+
+
+
+/* Header */
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  color: #0d0;
+  font-size: 24px;
+}
+
+
+
+/*  navbar  */
+
+nav {
+  background-color: #0d0;
+  text-align: center;
+  padding: 6px;
+}
+
+
+
+/* scooter list */
+
+.scooter-info {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 0.90em;
+  color: rgba(255,255,255,0.80);
+  line-height: 0.50em;
+}
+
+.text-icon::before {
+  content: "\21A6";
+}
+
+
+
+/* battery level style */
+
+.low-battery {
+  display: block;
+  background-color: #e22343;
+  height: 25px;
+  width: 20%;
+  border-radius: 3px;
+}
+
+.medium-battery {
+  display: block;
+  background-color: #eeb71c;
+  height: 25px;
+  width: 35%;
+  border-radius: 3px;
+}
+
+.high-battery {
+  display: block;
+  background-color: #0d0;
+  height: 25px;
+  width: 75%;
+  border-radius: 3px;
+}
